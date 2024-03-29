@@ -1,4 +1,14 @@
 # Write your solution here
+def first_word(sentence):
+    word = sentence.split()
+    return word[0]
+def second_word(sentence):
+    word = sentence.split()
+    return word[1]
+def last_word(sentence):
+    word = sentence.split()
+    return word[-1]
+
 # You can test your function by calling it within the following block
 if __name__ == "__main__":
     sentence = "once upon a time there was a programmer"
