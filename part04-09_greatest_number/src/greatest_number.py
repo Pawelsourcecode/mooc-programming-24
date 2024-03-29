@@ -1,4 +1,14 @@
 # Write your solution here
+def greatest_number(a,b,c):
+    if a > b:
+        if a > c:
+            return a
+    elif b > a:
+        if b > c:
+            return b
+    elif c > a:
+        if c > b:
+            return c
 # You can test your function by calling it within the following block
 if __name__ == "__main__":
     greatest = greatest_number(5, 4, 8)
